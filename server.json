@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.sprites/seo",
+  "title": "SEO by Sprites",
+  "description": "SEO for AI agents: keyword research, posts written into your CMS, page edits with approval.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.sprites.ai/mcp/seo",
+  "repository": {
+    "url": "https://github.com/sprites-ai/seo-mcp-server",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://mcp.sprites.ai/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sprites.ai/mcp"
+    }
+  ]
+}
